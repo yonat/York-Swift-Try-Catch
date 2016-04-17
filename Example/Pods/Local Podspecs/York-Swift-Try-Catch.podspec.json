@@ -1,0 +1,24 @@
+{
+  "name": "York-Swift-Try-Catch",
+  "version": "0.1.0",
+  "summary": "A short description of York-Swift-Try-Catch.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/York-Swift-Try-Catch",
+  "license": "MIT",
+  "authors": {
+    "Inácio Ferrarini": "inacio.ferrarini@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/York-Swift-Try-Catch.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "York-Swift-Try-Catch/Classes/**/*",
+  "resource_bundles": {
+    "York-Swift-Try-Catch": [
+      "York-Swift-Try-Catch/Assets/*.png"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+framework module Pods_York_Swift_Try_Catch_Tests {
+  umbrella header "Pods-York-Swift-Try-Catch_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module York_Swift_Try_Catch {
+  umbrella header "York-Swift-Try-Catch-umbrella.h"
+
+  export *
+  module * { export * }
+}

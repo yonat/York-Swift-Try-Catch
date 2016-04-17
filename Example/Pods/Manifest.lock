@@ -1,0 +1,14 @@
+PODS:
+  - York-Swift-Try-Catch (0.1.0)
+
+DEPENDENCIES:
+  - York-Swift-Try-Catch (from `../`)
+
+EXTERNAL SOURCES:
+  York-Swift-Try-Catch:
+    :path: ../
+
+SPEC CHECKSUMS:
+  York-Swift-Try-Catch: 7f6a92e8c08660d930fa4997a551f91c74e8a806
+
+COCOAPODS: 0.39.0
