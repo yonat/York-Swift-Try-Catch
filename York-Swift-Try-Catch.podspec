@@ -22,11 +22,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     LICENSE
 }
   s.author           = { "Inácio Ferrarini" => "inacio.ferrarini@gmail.com" }
-  s.source           = { :git => "https://github.com/inacioferrarini/York-Swift-Try-Catch", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/inacioferrarini/York-Swift-Try-Catch.git", :tag => s.version.to_s }
 
   s.source_files = 'York-Swift-Try-Catch/Classes/**/*'
   s.frameworks = 'UIKit'
   s.requires_arc = true
   s.ios.deployment_target = '8.0'
-  
+
 end
