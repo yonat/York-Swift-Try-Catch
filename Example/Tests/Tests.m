@@ -1,12 +1,5 @@
-//
-//  York-Swift-Try-CatchTests.m
-//  York-Swift-Try-CatchTests
-//
-//  Created by Inácio Ferrarini on 04/16/2016.
-//  Copyright (c) 2016 Inácio Ferrarini. All rights reserved.
-//
-
 @import XCTest;
+@import York_Swift_Try_Catch;
 
 @interface Tests : XCTestCase
 
@@ -14,22 +7,59 @@
 
 @implementation Tests
 
-- (void)setUp
-{
-    [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
+- (void)test_tryCatch_mustNotThrow {
+    
+    [TryCatchFinally handleTryBlock:^{
+        XCTAssertTrue(true);
+    } withCatchBlock:^(NSException *exception) {
+        XCTAssertTrue(false);
+    }];
+    
 }
 
-- (void)tearDown
-{
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
-    [super tearDown];
+- (void)test_tryCatch_mustThrowAndCatch {
+    
+    [TryCatchFinally handleTryBlock:^{
+        [[NSException exceptionWithName:@"TestException" reason:@"testing"  userInfo:nil] raise];
+        XCTAssertTrue(false);
+    } withCatchBlock:^(NSException *exception) {
+        XCTAssertEqual(exception.name, @"TestException");
+        XCTAssertEqual(exception.reason, @"testing");
+        XCTAssertTrue(true);
+    }];
+    
 }
 
-- (void)testExample
-{
- //   XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+- (void)test_tryCatchFinally_mustNotThrow {
+    
+    __block BOOL executedFinally = NO;
+    
+    [TryCatchFinally handleTryBlock:^{
+        XCTAssertTrue(true);
+    } withCatchBlock:^(NSException *exception) {
+        XCTAssertTrue(false);
+    } withFinallyBlock:^{
+        executedFinally = YES;
+    }];
+    XCTAssertTrue(executedFinally);
+}
+
+- (void)test_tryCatchFinally_mustThrowAndCatchAndExecuteFinally {
+    
+    __block BOOL executedFinally = NO;
+    
+    [TryCatchFinally handleTryBlock:^{
+        [[NSException exceptionWithName:@"TestException" reason:@"testing"  userInfo:nil] raise];
+        XCTAssertTrue(false);
+    } withCatchBlock:^(NSException *exception) {
+        XCTAssertEqual(exception.name, @"TestException");
+        XCTAssertEqual(exception.reason, @"testing");
+        XCTAssertTrue(true);
+    } withFinallyBlock:^{
+        executedFinally = YES;
+    }];
+    XCTAssertTrue(executedFinally);
+    
 }
 
 @end
-

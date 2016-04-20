@@ -7,26 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		300285C111922EF249C57DCD5FF06B11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		34C919E41CC32D640033AC8B /* TryCatchFinally.h in Headers */ = {isa = PBXBuildFile; fileRef = 34C919E21CC32D640033AC8B /* TryCatchFinally.h */; };
-		34C919E51CC32D640033AC8B /* TryCatchFinally.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C919E31CC32D640033AC8B /* TryCatchFinally.m */; };
-		34C919E61CC32D640033AC8B /* TryCatchFinally.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C919E31CC32D640033AC8B /* TryCatchFinally.m */; };
-		3B6771E4A310CE1424E625AA282E5532 /* York-Swift-Try-Catch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1D42FC115CAD20F6E44D560FF149C1 /* York-Swift-Try-Catch-dummy.m */; };
-		50BC27B38822BE7831476F4A923C21C6 /* York-Swift-Try-Catch.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 69D5C520E80A4D841C44B4C38A763A94 /* York-Swift-Try-Catch.bundle */; };
+		300285C111922EF249C57DCD5FF06B11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		52005C5731B339CC6A5F138D3356FC9C /* TryCatchFinally.h in Headers */ = {isa = PBXBuildFile; fileRef = 333301DA4F7DA5C28B335CE4EDB92C1C /* TryCatchFinally.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7263FBF7A5994D3230D983FAF72ACC /* Pods-York-Swift-Try-Catch_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10AD1E3790A1EBC76AF45A3BFA3E9371 /* Pods-York-Swift-Try-Catch_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B8AA21367179B3538DD5F1F396C97E2E /* Pods-York-Swift-Try-Catch_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB333694765169ED885FA61E5623FF0 /* Pods-York-Swift-Try-Catch_Tests-dummy.m */; };
-		BC8605549ACD9BEF846D77DDF1114976 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		D3E9F5D1907E0272381E4F1353657A33 /* York-Swift-Try-Catch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD964AA8DEECCC1D334CDE2D97EFE1DF /* York-Swift-Try-Catch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCAA743A9D57ED46B46C5AB7F347B1F1 /* York-Swift-Try-Catch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD964AA8DEECCC1D334CDE2D97EFE1DF /* York-Swift-Try-Catch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF8C4D817F2399A2F31B652F5C9C52F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */; };
+		C2A740AF982D457660AA230F8DC3CADC /* TryCatchFinally.m in Sources */ = {isa = PBXBuildFile; fileRef = 693C049A6F08F5A23AB6814F565DFBCC /* TryCatchFinally.m */; };
+		C97029B5ABDF3F56C6B1273738130778 /* York-Swift-Try-Catch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1D42FC115CAD20F6E44D560FF149C1 /* York-Swift-Try-Catch-dummy.m */; };
+		EAB28E1953789EE865F1DF0B989E7A5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		04052CF3A498E8CFCB194AE70184807A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D4F7862257CBB549CD48302600B7766B;
-			remoteInfo = "York-Swift-Try-Catch-York-Swift-Try-Catch";
-		};
 		6B6EA757514368B4ADD5BC86A8C00CD5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -39,23 +31,23 @@
 /* Begin PBXFileReference section */
 		03308BE73E97B52E3F6E03E34D745F74 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10AD1E3790A1EBC76AF45A3BFA3E9371 /* Pods-York-Swift-Try-Catch_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-York-Swift-Try-Catch_Tests-umbrella.h"; sourceTree = "<group>"; };
-		17AC78495B6A2085C4D7CE186C648E60 /* Pods_York_Swift_Try_Catch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_York_Swift_Try_Catch_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		264962C9391B6D82E9466AA32A8FFE75 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		34C919E21CC32D640033AC8B /* TryCatchFinally.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TryCatchFinally.h; sourceTree = "<group>"; };
-		34C919E31CC32D640033AC8B /* TryCatchFinally.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TryCatchFinally.m; sourceTree = "<group>"; };
+		2EE8137465C33B0F4537CF656D350EC7 /* York_Swift_Try_Catch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = York_Swift_Try_Catch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		333301DA4F7DA5C28B335CE4EDB92C1C /* TryCatchFinally.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TryCatchFinally.h; sourceTree = "<group>"; };
 		3BB333694765169ED885FA61E5623FF0 /* Pods-York-Swift-Try-Catch_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-York-Swift-Try-Catch_Tests-dummy.m"; sourceTree = "<group>"; };
-		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		42FF7E08C367DF3E18E22FD7AA146377 /* Pods-York-Swift-Try-Catch_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-York-Swift-Try-Catch_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		490DBDEA396824DBDE3C8156B54F39EA /* Pods_York_Swift_Try_Catch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_York_Swift_Try_Catch_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C42CB03DB897B31C0200944652E5CE5 /* Pods-York-Swift-Try-Catch_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-York-Swift-Try-Catch_Tests-resources.sh"; sourceTree = "<group>"; };
 		6404B3DE783507257B3B087958254717 /* York-Swift-Try-Catch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "York-Swift-Try-Catch-prefix.pch"; sourceTree = "<group>"; };
 		6523FED1A88FA9CF661F73A345FBA9BE /* Pods-York-Swift-Try-Catch_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-York-Swift-Try-Catch_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		69D5C520E80A4D841C44B4C38A763A94 /* York-Swift-Try-Catch.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "York-Swift-Try-Catch.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		693C049A6F08F5A23AB6814F565DFBCC /* TryCatchFinally.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TryCatchFinally.m; sourceTree = "<group>"; };
+		6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		81E0919C6976A88B985A5DC296B6F44A /* Pods-York-Swift-Try-Catch_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-York-Swift-Try-Catch_Tests.modulemap"; sourceTree = "<group>"; };
 		8B4DDC91600577BF7FDF83717C744BAE /* Pods-York-Swift-Try-Catch_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-York-Swift-Try-Catch_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		AD1D42FC115CAD20F6E44D560FF149C1 /* York-Swift-Try-Catch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "York-Swift-Try-Catch-dummy.m"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BBB436F7490AF37D22374C2FC96706DC /* York-Swift-Try-Catch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "York-Swift-Try-Catch.xcconfig"; sourceTree = "<group>"; };
-		C59CAAC2E124104885F4E348E48D285B /* York_Swift_Try_Catch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = York_Swift_Try_Catch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		CB2879F2DA2AFD546E14995E266435F0 /* Pods-York-Swift-Try-Catch_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-York-Swift-Try-Catch_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D5EEB80D31096B93B3E930AE574A979E /* Pods-York-Swift-Try-Catch_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-York-Swift-Try-Catch_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D5F5F3A8FE9B6210F0F656821E1B7D07 /* York-Swift-Try-Catch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "York-Swift-Try-Catch.modulemap"; sourceTree = "<group>"; };
@@ -63,21 +55,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0DFF48AC673DA22C6D8CB84FFE72C3C1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2AA2D411569C5FF96B2BEC00CF98C113 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BC8605549ACD9BEF846D77DDF1114976 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		859154A888A5DCBF3B37A9771105E2F9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -86,34 +63,67 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		88EAE02A8D94FB14513E6141D012416F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB28E1953789EE865F1DF0B989E7A5A /* Foundation.framework in Frameworks */,
+				BF8C4D817F2399A2F31B652F5C9C52F8 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18340F12838DEE43507667CC74401EB1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */,
+				C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		1977AB0845249AADCCACADE4E59BF9A5 /* York-Swift-Try-Catch */ = {
 			isa = PBXGroup;
 			children = (
-				650F02E40403441473576D3044F66256 /* Classes */,
+				3AE21C25C4770576EFACF48D372D385E /* Classes */,
 			);
 			path = "York-Swift-Try-Catch";
 			sourceTree = "<group>";
 		};
-		31E0A94A1779A2C4216F33EC6BED2B28 /* Products */ = {
+		1BF565D195427A4C8A5F369364F25C2D /* Exceptions */ = {
 			isa = PBXGroup;
 			children = (
-				17AC78495B6A2085C4D7CE186C648E60 /* Pods_York_Swift_Try_Catch_Tests.framework */,
-				69D5C520E80A4D841C44B4C38A763A94 /* York-Swift-Try-Catch.bundle */,
-				C59CAAC2E124104885F4E348E48D285B /* York_Swift_Try_Catch.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		34C919E11CC32D640033AC8B /* Exceptions */ = {
-			isa = PBXGroup;
-			children = (
-				34C919E21CC32D640033AC8B /* TryCatchFinally.h */,
-				34C919E31CC32D640033AC8B /* TryCatchFinally.m */,
+				333301DA4F7DA5C28B335CE4EDB92C1C /* TryCatchFinally.h */,
+				693C049A6F08F5A23AB6814F565DFBCC /* TryCatchFinally.m */,
 			);
 			path = Exceptions;
+			sourceTree = "<group>";
+		};
+		3AE21C25C4770576EFACF48D372D385E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1BF565D195427A4C8A5F369364F25C2D /* Exceptions */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18340F12838DEE43507667CC74401EB1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		439A4B3B1B85B98E321B198DE1BDC743 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				490DBDEA396824DBDE3C8156B54F39EA /* Pods_York_Swift_Try_Catch_Tests.framework */,
+				2EE8137465C33B0F4537CF656D350EC7 /* York_Swift_Try_Catch.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		52883978D32FDB282ED2ABCD1DB0B310 /* Support Files */ = {
@@ -156,14 +166,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		650F02E40403441473576D3044F66256 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				34C919E11CC32D640033AC8B /* Exceptions */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		652AEA04BD306CB93DD65BFDC19E6C65 /* York-Swift-Try-Catch */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,8 +181,8 @@
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				80B0651F467C225A26DE9B503A2AA166 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				31E0A94A1779A2C4216F33EC6BED2B28 /* Products */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				439A4B3B1B85B98E321B198DE1BDC743 /* Products */,
 				5ADE54294DD5F16CA54CAA81BAAE9606 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -193,39 +195,23 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		0F0A89870DC540BE80B965B740E94C8E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52005C5731B339CC6A5F138D3356FC9C /* TryCatchFinally.h in Headers */,
+				BCAA743A9D57ED46B46C5AB7F347B1F1 /* York-Swift-Try-Catch-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		24D5932F51BCD9F5D30A6B4EAFABF773 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9F7263FBF7A5994D3230D983FAF72ACC /* Pods-York-Swift-Try-Catch_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F7380DDE4C8A5A4705605C7A21109240 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				34C919E41CC32D640033AC8B /* TryCatchFinally.h in Headers */,
-				D3E9F5D1907E0272381E4F1353657A33 /* York-Swift-Try-Catch-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,43 +233,24 @@
 			);
 			name = "Pods-York-Swift-Try-Catch_Tests";
 			productName = "Pods-York-Swift-Try-Catch_Tests";
-			productReference = 17AC78495B6A2085C4D7CE186C648E60 /* Pods_York_Swift_Try_Catch_Tests.framework */;
+			productReference = 490DBDEA396824DBDE3C8156B54F39EA /* Pods_York_Swift_Try_Catch_Tests.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		D4F7862257CBB549CD48302600B7766B /* York-Swift-Try-Catch-York-Swift-Try-Catch */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9F689E8DBE3FBED92D2AACC7BC272A9F /* Build configuration list for PBXNativeTarget "York-Swift-Try-Catch-York-Swift-Try-Catch" */;
-			buildPhases = (
-				24B603D020B84C533CE2A2B54AB5522F /* Sources */,
-				0DFF48AC673DA22C6D8CB84FFE72C3C1 /* Frameworks */,
-				344FA2A26CD9D3A4A75B08928A946F06 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "York-Swift-Try-Catch-York-Swift-Try-Catch";
-			productName = "York-Swift-Try-Catch-York-Swift-Try-Catch";
-			productReference = 69D5C520E80A4D841C44B4C38A763A94 /* York-Swift-Try-Catch.bundle */;
-			productType = "com.apple.product-type.bundle";
 		};
 		EC36643CF19F22C417B26955BBC60591 /* York-Swift-Try-Catch */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 416907B4CDB884A820EEFA74BD3433A6 /* Build configuration list for PBXNativeTarget "York-Swift-Try-Catch" */;
 			buildPhases = (
-				5E0E0532161FB8CD60D023E0160E3041 /* Sources */,
-				2AA2D411569C5FF96B2BEC00CF98C113 /* Frameworks */,
-				B45FE34919E52B95D5D52FC1EC3A85FF /* Resources */,
-				F7380DDE4C8A5A4705605C7A21109240 /* Headers */,
+				F92E72AA1DE5CA68AAC30D47DF148856 /* Sources */,
+				88EAE02A8D94FB14513E6141D012416F /* Frameworks */,
+				0F0A89870DC540BE80B965B740E94C8E /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				85BE3A9DE2833C9C23EAF6FAA758CAB2 /* PBXTargetDependency */,
 			);
 			name = "York-Swift-Try-Catch";
 			productName = "York-Swift-Try-Catch";
-			productReference = C59CAAC2E124104885F4E348E48D285B /* York_Swift_Try_Catch.framework */;
+			productReference = 2EE8137465C33B0F4537CF656D350EC7 /* York_Swift_Try_Catch.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -303,53 +270,17 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 31E0A94A1779A2C4216F33EC6BED2B28 /* Products */;
+			productRefGroup = 439A4B3B1B85B98E321B198DE1BDC743 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				1A86A58BD5DAC42EE4A37D4601ECAE5F /* Pods-York-Swift-Try-Catch_Tests */,
 				EC36643CF19F22C417B26955BBC60591 /* York-Swift-Try-Catch */,
-				D4F7862257CBB549CD48302600B7766B /* York-Swift-Try-Catch-York-Swift-Try-Catch */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		344FA2A26CD9D3A4A75B08928A946F06 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B45FE34919E52B95D5D52FC1EC3A85FF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				50BC27B38822BE7831476F4A923C21C6 /* York-Swift-Try-Catch.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		24B603D020B84C533CE2A2B54AB5522F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				34C919E61CC32D640033AC8B /* TryCatchFinally.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5E0E0532161FB8CD60D023E0160E3041 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3B6771E4A310CE1424E625AA282E5532 /* York-Swift-Try-Catch-dummy.m in Sources */,
-				34C919E51CC32D640033AC8B /* TryCatchFinally.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		98C64ECB9E727887975AC0888AE133B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -358,15 +289,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F92E72AA1DE5CA68AAC30D47DF148856 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A740AF982D457660AA230F8DC3CADC /* TryCatchFinally.m in Sources */,
+				C97029B5ABDF3F56C6B1273738130778 /* York-Swift-Try-Catch-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		85BE3A9DE2833C9C23EAF6FAA758CAB2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "York-Swift-Try-Catch-York-Swift-Try-Catch";
-			target = D4F7862257CBB549CD48302600B7766B /* York-Swift-Try-Catch-York-Swift-Try-Catch */;
-			targetProxy = 04052CF3A498E8CFCB194AE70184807A /* PBXContainerItemProxy */;
-		};
 		DFCD305D8D5EFF26908C9EA1AEE9A759 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "York-Swift-Try-Catch";
@@ -467,18 +401,6 @@
 			};
 			name = Debug;
 		};
-		2706FA498D6BF2FBB42043F23720B6E3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBB436F7490AF37D22374C2FC96706DC /* York-Swift-Try-Catch.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = "York-Swift-Try-Catch";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -575,18 +497,6 @@
 			};
 			name = Release;
 		};
-		E452F4254BA95C3A5FD9D5A8D17D8B81 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBB436F7490AF37D22374C2FC96706DC /* York-Swift-Try-Catch.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = "York-Swift-Try-Catch";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -613,15 +523,6 @@
 			buildConfigurations = (
 				17FECD6C77E1944079888D4B66FEEAA6 /* Debug */,
 				CF0888260C73D8A82EA3AEEFB5E776A6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9F689E8DBE3FBED92D2AACC7BC272A9F /* Build configuration list for PBXNativeTarget "York-Swift-Try-Catch-York-Swift-Try-Catch" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2706FA498D6BF2FBB42043F23720B6E3 /* Debug */,
-				E452F4254BA95C3A5FD9D5A8D17D8B81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "York-Swift-Try-Catch"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "Objective-C-based try-catch implementation for usage in Swift."
   s.homepage         = "https://github.com/inacioferrarini/York-Swift-Try-Catch"
 
@@ -28,5 +28,5 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   s.frameworks = 'UIKit'
   s.requires_arc = true
   s.ios.deployment_target = '8.0'
-
+  
 end
