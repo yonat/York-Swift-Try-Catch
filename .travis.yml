@@ -3,11 +3,18 @@
 # * https://github.com/supermarin/xcpretty#usage
 
 osx_image: xcode7.2
-
 language: objective-c
 before_install:
-- gem install cocoapods -v '= 0.38.0'
+- brew cask uninstall oclint
+- brew tap oclint/formulae
+- brew install oclint
+- gem install cocoapods -v '= 0.39.0'
 - pod install --project-directory=Example
 script:
-- xctool -workspace Example/York-Swift-Try-Catch.xcworkspace -scheme York-Swift-Try-Catch-Example test -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
+- set -o pipefail
+- xcodebuild -workspace Example/York-Swift-Try-Catch.xcworkspace -scheme York-Swift-Try-Catch test -sdk iphonesimulator9.2 -destination "platform=iOS Simulator,name=iPhone 6" | xcpretty -c
+- oclint-xcodebuild
+- oclint-json-compilation-database
 - pod lib lint
+after_success:
+- bash <(curl -s https://codecov.io/bash)
