@@ -17,7 +17,7 @@
                BlueprintIdentifier = "EC36643CF19F22C417B26955BBC60591"
                BuildableName = "York_Swift_Try_Catch.framework"
                BlueprintName = "York-Swift-Try-Catch"
-               ReferencedContainer = "container:Pods.xcodeproj">
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -36,7 +36,7 @@
                BlueprintIdentifier = "6003F5AD195388D20070C39A"
                BuildableName = "York-Swift-Try-Catch_Tests.xctest"
                BlueprintName = "York-Swift-Try-Catch_Tests"
-               ReferencedContainer = "container:../York-Swift-Try-Catch.xcodeproj">
+               ReferencedContainer = "container:York-Swift-Try-Catch.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -46,7 +46,7 @@
             BlueprintIdentifier = "EC36643CF19F22C417B26955BBC60591"
             BuildableName = "York_Swift_Try_Catch.framework"
             BlueprintName = "York-Swift-Try-Catch"
-            ReferencedContainer = "container:Pods.xcodeproj">
+            ReferencedContainer = "container:Pods/Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -68,7 +68,7 @@
             BlueprintIdentifier = "EC36643CF19F22C417B26955BBC60591"
             BuildableName = "York_Swift_Try_Catch.framework"
             BlueprintName = "York-Swift-Try-Catch"
-            ReferencedContainer = "container:Pods.xcodeproj">
+            ReferencedContainer = "container:Pods/Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -86,7 +86,7 @@
             BlueprintIdentifier = "EC36643CF19F22C417B26955BBC60591"
             BuildableName = "York_Swift_Try_Catch.framework"
             BlueprintName = "York-Swift-Try-Catch"
-            ReferencedContainer = "container:Pods.xcodeproj">
+            ReferencedContainer = "container:Pods/Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
