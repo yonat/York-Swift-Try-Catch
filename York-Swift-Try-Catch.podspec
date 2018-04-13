@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "York-Swift-Try-Catch"
-  s.version          = "0.1.1"
+  s.version          = "0.1.2"
   s.summary          = "Objective-C-based try-catch implementation for usage in Swift."
   s.homepage         = "https://github.com/inacioferrarini/York-Swift-Try-Catch"
 

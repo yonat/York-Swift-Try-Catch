@@ -6,9 +6,11 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   York-Swift-Try-Catch:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  York-Swift-Try-Catch: ac0d410504c56c181ee40404e95ea835a817e7b6
+  York-Swift-Try-Catch: 6494dfaa30e22a2e0102d9e1a744525d32764017
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: a0f024df328ffff4c5263244bfe3e035c17d881e
+
+COCOAPODS: 1.5.0

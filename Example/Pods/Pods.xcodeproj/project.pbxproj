@@ -7,242 +7,232 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		300285C111922EF249C57DCD5FF06B11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
-		52005C5731B339CC6A5F138D3356FC9C /* TryCatchFinally.h in Headers */ = {isa = PBXBuildFile; fileRef = 333301DA4F7DA5C28B335CE4EDB92C1C /* TryCatchFinally.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F7263FBF7A5994D3230D983FAF72ACC /* Pods-York-Swift-Try-Catch_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10AD1E3790A1EBC76AF45A3BFA3E9371 /* Pods-York-Swift-Try-Catch_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B8AA21367179B3538DD5F1F396C97E2E /* Pods-York-Swift-Try-Catch_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB333694765169ED885FA61E5623FF0 /* Pods-York-Swift-Try-Catch_Tests-dummy.m */; };
-		BCAA743A9D57ED46B46C5AB7F347B1F1 /* York-Swift-Try-Catch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD964AA8DEECCC1D334CDE2D97EFE1DF /* York-Swift-Try-Catch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF8C4D817F2399A2F31B652F5C9C52F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */; };
-		C2A740AF982D457660AA230F8DC3CADC /* TryCatchFinally.m in Sources */ = {isa = PBXBuildFile; fileRef = 693C049A6F08F5A23AB6814F565DFBCC /* TryCatchFinally.m */; };
-		C97029B5ABDF3F56C6B1273738130778 /* York-Swift-Try-Catch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1D42FC115CAD20F6E44D560FF149C1 /* York-Swift-Try-Catch-dummy.m */; };
-		EAB28E1953789EE865F1DF0B989E7A5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		0EE8D6F63FC1DDA2F0EFAAE47F268F9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		183EC6DAFAFCDA15DB33B9CFEC40521B /* Pods-York-Swift-Try-Catch_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B124269D00C66CF11E94596B9BC9C727 /* Pods-York-Swift-Try-Catch_Tests-dummy.m */; };
+		34F8629F26228161DE63ED12C1369D31 /* York-Swift-Try-Catch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D13A7D4FE7B565EBAB0BDA851757E0 /* York-Swift-Try-Catch-dummy.m */; };
+		7494C115A8E3D2DB768DB202D7F082D8 /* Pods-York-Swift-Try-Catch_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F4C8972BD10AD714BE6055B299051E8 /* Pods-York-Swift-Try-Catch_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86537EF8A28B302359315D806F4C1F82 /* TryCatchFinally.h in Headers */ = {isa = PBXBuildFile; fileRef = E37DAAE342D9E06725A0DD6F114FAEB3 /* TryCatchFinally.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91FF73004E83E8B4A4169A399E7318DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		D35623A51EEE9A73C60FDD31445FC374 /* York-Swift-Try-Catch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E65CB727A6F4EFC87BA4BCF5A3B4ED1B /* York-Swift-Try-Catch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7374ACEA5BF0B7C0971E112AA1D6132 /* TryCatchFinally.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F85FC3113D5990AC4222F76163AFCB3 /* TryCatchFinally.m */; };
+		EC6B85C266A3DEC7C7BC723E8E8FCBB4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6B6EA757514368B4ADD5BC86A8C00CD5 /* PBXContainerItemProxy */ = {
+		85513CF99C32757C37C93BF0BEAA0DE9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EC36643CF19F22C417B26955BBC60591;
+			remoteGlobalIDString = C24F9BB5F6082913F9AA03ED22B9685C;
 			remoteInfo = "York-Swift-Try-Catch";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03308BE73E97B52E3F6E03E34D745F74 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		10AD1E3790A1EBC76AF45A3BFA3E9371 /* Pods-York-Swift-Try-Catch_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-York-Swift-Try-Catch_Tests-umbrella.h"; sourceTree = "<group>"; };
-		264962C9391B6D82E9466AA32A8FFE75 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2EE8137465C33B0F4537CF656D350EC7 /* York_Swift_Try_Catch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = York_Swift_Try_Catch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		333301DA4F7DA5C28B335CE4EDB92C1C /* TryCatchFinally.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TryCatchFinally.h; sourceTree = "<group>"; };
-		3BB333694765169ED885FA61E5623FF0 /* Pods-York-Swift-Try-Catch_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-York-Swift-Try-Catch_Tests-dummy.m"; sourceTree = "<group>"; };
-		42FF7E08C367DF3E18E22FD7AA146377 /* Pods-York-Swift-Try-Catch_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-York-Swift-Try-Catch_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		490DBDEA396824DBDE3C8156B54F39EA /* Pods_York_Swift_Try_Catch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_York_Swift_Try_Catch_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C42CB03DB897B31C0200944652E5CE5 /* Pods-York-Swift-Try-Catch_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-York-Swift-Try-Catch_Tests-resources.sh"; sourceTree = "<group>"; };
-		6404B3DE783507257B3B087958254717 /* York-Swift-Try-Catch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "York-Swift-Try-Catch-prefix.pch"; sourceTree = "<group>"; };
-		6523FED1A88FA9CF661F73A345FBA9BE /* Pods-York-Swift-Try-Catch_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-York-Swift-Try-Catch_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		693C049A6F08F5A23AB6814F565DFBCC /* TryCatchFinally.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TryCatchFinally.m; sourceTree = "<group>"; };
-		6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		81E0919C6976A88B985A5DC296B6F44A /* Pods-York-Swift-Try-Catch_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-York-Swift-Try-Catch_Tests.modulemap"; sourceTree = "<group>"; };
-		8B4DDC91600577BF7FDF83717C744BAE /* Pods-York-Swift-Try-Catch_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-York-Swift-Try-Catch_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		AD1D42FC115CAD20F6E44D560FF149C1 /* York-Swift-Try-Catch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "York-Swift-Try-Catch-dummy.m"; sourceTree = "<group>"; };
-		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BBB436F7490AF37D22374C2FC96706DC /* York-Swift-Try-Catch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "York-Swift-Try-Catch.xcconfig"; sourceTree = "<group>"; };
-		C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		CB2879F2DA2AFD546E14995E266435F0 /* Pods-York-Swift-Try-Catch_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-York-Swift-Try-Catch_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D5EEB80D31096B93B3E930AE574A979E /* Pods-York-Swift-Try-Catch_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-York-Swift-Try-Catch_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D5F5F3A8FE9B6210F0F656821E1B7D07 /* York-Swift-Try-Catch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "York-Swift-Try-Catch.modulemap"; sourceTree = "<group>"; };
-		DD964AA8DEECCC1D334CDE2D97EFE1DF /* York-Swift-Try-Catch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "York-Swift-Try-Catch-umbrella.h"; sourceTree = "<group>"; };
+		0319333814669D28C29EF70AA23D5B2D /* York-Swift-Try-Catch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "York-Swift-Try-Catch-prefix.pch"; sourceTree = "<group>"; };
+		0DA7AF19F36F788C584AF4A9D9613EEC /* Pods-York-Swift-Try-Catch_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-York-Swift-Try-Catch_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1828C482E26E0D2AF3F6744723DC31A0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19CE190F1C1FBBB924F3FA0301DB2D9F /* York-Swift-Try-Catch.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = "York-Swift-Try-Catch.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		39093952C3E1897F1C9725A20E98EF77 /* York_Swift_Try_Catch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = York_Swift_Try_Catch.framework; path = "York-Swift-Try-Catch.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42FC1075E29230F131787335EEF16A36 /* Pods_York_Swift_Try_Catch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_York_Swift_Try_Catch_Tests.framework; path = "Pods-York-Swift-Try-Catch_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58D345BABAF67E1EA01E0FF2056E324E /* Pods-York-Swift-Try-Catch_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-York-Swift-Try-Catch_Tests.modulemap"; sourceTree = "<group>"; };
+		5906A413C459324C5157811911CF654E /* Pods-York-Swift-Try-Catch_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-York-Swift-Try-Catch_Tests-resources.sh"; sourceTree = "<group>"; };
+		6E4CC2ADC1007ACF4D62BF6A375749F7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7074472995240C7190C7104C6E35D5CE /* York-Swift-Try-Catch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "York-Swift-Try-Catch.xcconfig"; sourceTree = "<group>"; };
+		8F4C8972BD10AD714BE6055B299051E8 /* Pods-York-Swift-Try-Catch_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-York-Swift-Try-Catch_Tests-umbrella.h"; sourceTree = "<group>"; };
+		921240E03F4EC3A8D61536EB1261840E /* Pods-York-Swift-Try-Catch_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-York-Swift-Try-Catch_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9919E82B1A094680B3C8041039D11334 /* Pods-York-Swift-Try-Catch_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-York-Swift-Try-Catch_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9F85FC3113D5990AC4222F76163AFCB3 /* TryCatchFinally.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TryCatchFinally.m; path = "York-Swift-Try-Catch/Classes/Exceptions/TryCatchFinally.m"; sourceTree = "<group>"; };
+		9FC8D0B1C5C48ECFC6AB8291FEB823A7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A22DCA6CB2FA8BCEF70D7A1B5F934D3B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B124269D00C66CF11E94596B9BC9C727 /* Pods-York-Swift-Try-Catch_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-York-Swift-Try-Catch_Tests-dummy.m"; sourceTree = "<group>"; };
+		B2829EB37AAB7B1BCC42B42B8BA477F1 /* Pods-York-Swift-Try-Catch_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-York-Swift-Try-Catch_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B4D13A7D4FE7B565EBAB0BDA851757E0 /* York-Swift-Try-Catch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "York-Swift-Try-Catch-dummy.m"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E37DAAE342D9E06725A0DD6F114FAEB3 /* TryCatchFinally.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TryCatchFinally.h; path = "York-Swift-Try-Catch/Classes/Exceptions/TryCatchFinally.h"; sourceTree = "<group>"; };
+		E65CB727A6F4EFC87BA4BCF5A3B4ED1B /* York-Swift-Try-Catch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "York-Swift-Try-Catch-umbrella.h"; sourceTree = "<group>"; };
+		EAA36DA8B23B4C081D95CA6CDDBDB8FD /* Pods-York-Swift-Try-Catch_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-York-Swift-Try-Catch_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EF0A4CB260DFB290AE95E3A51792982A /* York-Swift-Try-Catch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "York-Swift-Try-Catch.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		859154A888A5DCBF3B37A9771105E2F9 /* Frameworks */ = {
+		5C373F1B560A0FD08CC5531A07000ABB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				300285C111922EF249C57DCD5FF06B11 /* Foundation.framework in Frameworks */,
+				91FF73004E83E8B4A4169A399E7318DC /* Foundation.framework in Frameworks */,
+				EC6B85C266A3DEC7C7BC723E8E8FCBB4 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		88EAE02A8D94FB14513E6141D012416F /* Frameworks */ = {
+		EE19A44CC7304A00075709C2C0095BB0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAB28E1953789EE865F1DF0B989E7A5A /* Foundation.framework in Frameworks */,
-				BF8C4D817F2399A2F31B652F5C9C52F8 /* UIKit.framework in Frameworks */,
+				0EE8D6F63FC1DDA2F0EFAAE47F268F9F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		18340F12838DEE43507667CC74401EB1 /* iOS */ = {
+		2B396D225768DE525D96C7E32D77F5FA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */,
-				C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		1977AB0845249AADCCACADE4E59BF9A5 /* York-Swift-Try-Catch */ = {
-			isa = PBXGroup;
-			children = (
-				3AE21C25C4770576EFACF48D372D385E /* Classes */,
-			);
-			path = "York-Swift-Try-Catch";
-			sourceTree = "<group>";
-		};
-		1BF565D195427A4C8A5F369364F25C2D /* Exceptions */ = {
-			isa = PBXGroup;
-			children = (
-				333301DA4F7DA5C28B335CE4EDB92C1C /* TryCatchFinally.h */,
-				693C049A6F08F5A23AB6814F565DFBCC /* TryCatchFinally.m */,
-			);
-			path = Exceptions;
-			sourceTree = "<group>";
-		};
-		3AE21C25C4770576EFACF48D372D385E /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				1BF565D195427A4C8A5F369364F25C2D /* Exceptions */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				18340F12838DEE43507667CC74401EB1 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		439A4B3B1B85B98E321B198DE1BDC743 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				490DBDEA396824DBDE3C8156B54F39EA /* Pods_York_Swift_Try_Catch_Tests.framework */,
-				2EE8137465C33B0F4537CF656D350EC7 /* York_Swift_Try_Catch.framework */,
+				42FC1075E29230F131787335EEF16A36 /* Pods_York_Swift_Try_Catch_Tests.framework */,
+				39093952C3E1897F1C9725A20E98EF77 /* York_Swift_Try_Catch.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		52883978D32FDB282ED2ABCD1DB0B310 /* Support Files */ = {
+		41A06FD83FE5E74208459DD3645B684E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				03308BE73E97B52E3F6E03E34D745F74 /* Info.plist */,
-				D5F5F3A8FE9B6210F0F656821E1B7D07 /* York-Swift-Try-Catch.modulemap */,
-				BBB436F7490AF37D22374C2FC96706DC /* York-Swift-Try-Catch.xcconfig */,
-				AD1D42FC115CAD20F6E44D560FF149C1 /* York-Swift-Try-Catch-dummy.m */,
-				6404B3DE783507257B3B087958254717 /* York-Swift-Try-Catch-prefix.pch */,
-				DD964AA8DEECCC1D334CDE2D97EFE1DF /* York-Swift-Try-Catch-umbrella.h */,
+				1828C482E26E0D2AF3F6744723DC31A0 /* Info.plist */,
+				EF0A4CB260DFB290AE95E3A51792982A /* York-Swift-Try-Catch.modulemap */,
+				7074472995240C7190C7104C6E35D5CE /* York-Swift-Try-Catch.xcconfig */,
+				B4D13A7D4FE7B565EBAB0BDA851757E0 /* York-Swift-Try-Catch-dummy.m */,
+				0319333814669D28C29EF70AA23D5B2D /* York-Swift-Try-Catch-prefix.pch */,
+				E65CB727A6F4EFC87BA4BCF5A3B4ED1B /* York-Swift-Try-Catch-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/York-Swift-Try-Catch";
 			sourceTree = "<group>";
 		};
-		585A75648DC4938FB02CF8D745CFD9A5 /* Pods-York-Swift-Try-Catch_Tests */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				264962C9391B6D82E9466AA32A8FFE75 /* Info.plist */,
-				81E0919C6976A88B985A5DC296B6F44A /* Pods-York-Swift-Try-Catch_Tests.modulemap */,
-				CB2879F2DA2AFD546E14995E266435F0 /* Pods-York-Swift-Try-Catch_Tests-acknowledgements.markdown */,
-				8B4DDC91600577BF7FDF83717C744BAE /* Pods-York-Swift-Try-Catch_Tests-acknowledgements.plist */,
-				3BB333694765169ED885FA61E5623FF0 /* Pods-York-Swift-Try-Catch_Tests-dummy.m */,
-				6523FED1A88FA9CF661F73A345FBA9BE /* Pods-York-Swift-Try-Catch_Tests-frameworks.sh */,
-				4C42CB03DB897B31C0200944652E5CE5 /* Pods-York-Swift-Try-Catch_Tests-resources.sh */,
-				10AD1E3790A1EBC76AF45A3BFA3E9371 /* Pods-York-Swift-Try-Catch_Tests-umbrella.h */,
-				D5EEB80D31096B93B3E930AE574A979E /* Pods-York-Swift-Try-Catch_Tests.debug.xcconfig */,
-				42FF7E08C367DF3E18E22FD7AA146377 /* Pods-York-Swift-Try-Catch_Tests.release.xcconfig */,
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
 			);
-			name = "Pods-York-Swift-Try-Catch_Tests";
-			path = "Target Support Files/Pods-York-Swift-Try-Catch_Tests";
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		5ADE54294DD5F16CA54CAA81BAAE9606 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				585A75648DC4938FB02CF8D745CFD9A5 /* Pods-York-Swift-Try-Catch_Tests */,
+				9B340BFB8693E6DD1BFBFB72A30A6928 /* Pods-York-Swift-Try-Catch_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		652AEA04BD306CB93DD65BFDC19E6C65 /* York-Swift-Try-Catch */ = {
+		67C889FAC66C59A59556B90CB5253E88 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				52883978D32FDB282ED2ABCD1DB0B310 /* Support Files */,
-				1977AB0845249AADCCACADE4E59BF9A5 /* York-Swift-Try-Catch */,
+				9A02045326B5B3B92022CEF01570D9DD /* York-Swift-Try-Catch */,
 			);
-			name = "York-Swift-Try-Catch";
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				80B0651F467C225A26DE9B503A2AA166 /* Development Pods */,
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				67C889FAC66C59A59556B90CB5253E88 /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				439A4B3B1B85B98E321B198DE1BDC743 /* Products */,
+				2B396D225768DE525D96C7E32D77F5FA /* Products */,
 				5ADE54294DD5F16CA54CAA81BAAE9606 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		80B0651F467C225A26DE9B503A2AA166 /* Development Pods */ = {
+		82E29522661383BD12F031300C418804 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				652AEA04BD306CB93DD65BFDC19E6C65 /* York-Swift-Try-Catch */,
+				9FC8D0B1C5C48ECFC6AB8291FEB823A7 /* LICENSE */,
+				6E4CC2ADC1007ACF4D62BF6A375749F7 /* README.md */,
+				19CE190F1C1FBBB924F3FA0301DB2D9F /* York-Swift-Try-Catch.podspec */,
 			);
-			name = "Development Pods";
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9A02045326B5B3B92022CEF01570D9DD /* York-Swift-Try-Catch */ = {
+			isa = PBXGroup;
+			children = (
+				E37DAAE342D9E06725A0DD6F114FAEB3 /* TryCatchFinally.h */,
+				9F85FC3113D5990AC4222F76163AFCB3 /* TryCatchFinally.m */,
+				82E29522661383BD12F031300C418804 /* Pod */,
+				41A06FD83FE5E74208459DD3645B684E /* Support Files */,
+			);
+			name = "York-Swift-Try-Catch";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9B340BFB8693E6DD1BFBFB72A30A6928 /* Pods-York-Swift-Try-Catch_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A22DCA6CB2FA8BCEF70D7A1B5F934D3B /* Info.plist */,
+				58D345BABAF67E1EA01E0FF2056E324E /* Pods-York-Swift-Try-Catch_Tests.modulemap */,
+				EAA36DA8B23B4C081D95CA6CDDBDB8FD /* Pods-York-Swift-Try-Catch_Tests-acknowledgements.markdown */,
+				9919E82B1A094680B3C8041039D11334 /* Pods-York-Swift-Try-Catch_Tests-acknowledgements.plist */,
+				B124269D00C66CF11E94596B9BC9C727 /* Pods-York-Swift-Try-Catch_Tests-dummy.m */,
+				B2829EB37AAB7B1BCC42B42B8BA477F1 /* Pods-York-Swift-Try-Catch_Tests-frameworks.sh */,
+				5906A413C459324C5157811911CF654E /* Pods-York-Swift-Try-Catch_Tests-resources.sh */,
+				8F4C8972BD10AD714BE6055B299051E8 /* Pods-York-Swift-Try-Catch_Tests-umbrella.h */,
+				0DA7AF19F36F788C584AF4A9D9613EEC /* Pods-York-Swift-Try-Catch_Tests.debug.xcconfig */,
+				921240E03F4EC3A8D61536EB1261840E /* Pods-York-Swift-Try-Catch_Tests.release.xcconfig */,
+			);
+			name = "Pods-York-Swift-Try-Catch_Tests";
+			path = "Target Support Files/Pods-York-Swift-Try-Catch_Tests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0F0A89870DC540BE80B965B740E94C8E /* Headers */ = {
+		4EBB1172497F9FD95978018EA2767A24 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52005C5731B339CC6A5F138D3356FC9C /* TryCatchFinally.h in Headers */,
-				BCAA743A9D57ED46B46C5AB7F347B1F1 /* York-Swift-Try-Catch-umbrella.h in Headers */,
+				7494C115A8E3D2DB768DB202D7F082D8 /* Pods-York-Swift-Try-Catch_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		24D5932F51BCD9F5D30A6B4EAFABF773 /* Headers */ = {
+		E3DEE61DB84148F61FF2245BC7C0CF38 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F7263FBF7A5994D3230D983FAF72ACC /* Pods-York-Swift-Try-Catch_Tests-umbrella.h in Headers */,
+				86537EF8A28B302359315D806F4C1F82 /* TryCatchFinally.h in Headers */,
+				D35623A51EEE9A73C60FDD31445FC374 /* York-Swift-Try-Catch-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1A86A58BD5DAC42EE4A37D4601ECAE5F /* Pods-York-Swift-Try-Catch_Tests */ = {
+		B3E2B9346B2C57381B825756E658BD21 /* Pods-York-Swift-Try-Catch_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1E56A31D56C7FA8FEFB6BE9BDF0F47BE /* Build configuration list for PBXNativeTarget "Pods-York-Swift-Try-Catch_Tests" */;
+			buildConfigurationList = 22269359503C97DAB7E6D18783890B65 /* Build configuration list for PBXNativeTarget "Pods-York-Swift-Try-Catch_Tests" */;
 			buildPhases = (
-				98C64ECB9E727887975AC0888AE133B8 /* Sources */,
-				859154A888A5DCBF3B37A9771105E2F9 /* Frameworks */,
-				24D5932F51BCD9F5D30A6B4EAFABF773 /* Headers */,
+				104D4AACBD18D8AF50D23C9FB0C4CCCD /* Sources */,
+				EE19A44CC7304A00075709C2C0095BB0 /* Frameworks */,
+				4EBB1172497F9FD95978018EA2767A24 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DFCD305D8D5EFF26908C9EA1AEE9A759 /* PBXTargetDependency */,
+				CE6332CFB5D5EC4820A0C5EAF2B32CAC /* PBXTargetDependency */,
 			);
 			name = "Pods-York-Swift-Try-Catch_Tests";
 			productName = "Pods-York-Swift-Try-Catch_Tests";
-			productReference = 490DBDEA396824DBDE3C8156B54F39EA /* Pods_York_Swift_Try_Catch_Tests.framework */;
+			productReference = 42FC1075E29230F131787335EEF16A36 /* Pods_York_Swift_Try_Catch_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		EC36643CF19F22C417B26955BBC60591 /* York-Swift-Try-Catch */ = {
+		C24F9BB5F6082913F9AA03ED22B9685C /* York-Swift-Try-Catch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 416907B4CDB884A820EEFA74BD3433A6 /* Build configuration list for PBXNativeTarget "York-Swift-Try-Catch" */;
+			buildConfigurationList = A140286D3E655071921ADA17086C72AB /* Build configuration list for PBXNativeTarget "York-Swift-Try-Catch" */;
 			buildPhases = (
-				F92E72AA1DE5CA68AAC30D47DF148856 /* Sources */,
-				88EAE02A8D94FB14513E6141D012416F /* Frameworks */,
-				0F0A89870DC540BE80B965B740E94C8E /* Headers */,
+				F34EE8C7E8FF420C9B8B18ED52B2987A /* Sources */,
+				5C373F1B560A0FD08CC5531A07000ABB /* Frameworks */,
+				E3DEE61DB84148F61FF2245BC7C0CF38 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -250,7 +240,7 @@
 			);
 			name = "York-Swift-Try-Catch";
 			productName = "York-Swift-Try-Catch";
-			productReference = 2EE8137465C33B0F4537CF656D350EC7 /* York_Swift_Try_Catch.framework */;
+			productReference = 39093952C3E1897F1C9725A20E98EF77 /* York_Swift_Try_Catch.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -259,8 +249,8 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -270,129 +260,102 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 439A4B3B1B85B98E321B198DE1BDC743 /* Products */;
+			productRefGroup = 2B396D225768DE525D96C7E32D77F5FA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1A86A58BD5DAC42EE4A37D4601ECAE5F /* Pods-York-Swift-Try-Catch_Tests */,
-				EC36643CF19F22C417B26955BBC60591 /* York-Swift-Try-Catch */,
+				B3E2B9346B2C57381B825756E658BD21 /* Pods-York-Swift-Try-Catch_Tests */,
+				C24F9BB5F6082913F9AA03ED22B9685C /* York-Swift-Try-Catch */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		98C64ECB9E727887975AC0888AE133B8 /* Sources */ = {
+		104D4AACBD18D8AF50D23C9FB0C4CCCD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8AA21367179B3538DD5F1F396C97E2E /* Pods-York-Swift-Try-Catch_Tests-dummy.m in Sources */,
+				183EC6DAFAFCDA15DB33B9CFEC40521B /* Pods-York-Swift-Try-Catch_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F92E72AA1DE5CA68AAC30D47DF148856 /* Sources */ = {
+		F34EE8C7E8FF420C9B8B18ED52B2987A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2A740AF982D457660AA230F8DC3CADC /* TryCatchFinally.m in Sources */,
-				C97029B5ABDF3F56C6B1273738130778 /* York-Swift-Try-Catch-dummy.m in Sources */,
+				D7374ACEA5BF0B7C0971E112AA1D6132 /* TryCatchFinally.m in Sources */,
+				34F8629F26228161DE63ED12C1369D31 /* York-Swift-Try-Catch-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DFCD305D8D5EFF26908C9EA1AEE9A759 /* PBXTargetDependency */ = {
+		CE6332CFB5D5EC4820A0C5EAF2B32CAC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "York-Swift-Try-Catch";
-			target = EC36643CF19F22C417B26955BBC60591 /* York-Swift-Try-Catch */;
-			targetProxy = 6B6EA757514368B4ADD5BC86A8C00CD5 /* PBXContainerItemProxy */;
+			target = C24F9BB5F6082913F9AA03ED22B9685C /* York-Swift-Try-Catch */;
+			targetProxy = 85513CF99C32757C37C93BF0BEAA0DE9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+		7A90603F27D4D26F8F1692E3AD773C89 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7074472995240C7190C7104C6E35D5CE /* York-Swift-Try-Catch.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		17FECD6C77E1944079888D4B66FEEAA6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBB436F7490AF37D22374C2FC96706DC /* York-Swift-Try-Catch.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/York-Swift-Try-Catch/York-Swift-Try-Catch-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/York-Swift-Try-Catch/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/York-Swift-Try-Catch/York-Swift-Try-Catch.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_MODULE_NAME = York_Swift_Try_Catch;
 				PRODUCT_NAME = York_Swift_Try_Catch;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		1DDAB43ADB041BF5BF6BCFCED5553FFE /* Debug */ = {
+		7E98D174769A81DC27EB5204184184FF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D5EEB80D31096B93B3E930AE574A979E /* Pods-York-Swift-Try-Catch_Tests.debug.xcconfig */;
+			baseConfigurationReference = 0DA7AF19F36F788C584AF4A9D9613EEC /* Pods-York-Swift-Try-Catch_Tests.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-York-Swift-Try-Catch_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-York-Swift-Try-Catch_Tests/Pods-York-Swift-Try-Catch_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_York_Swift_Try_Catch_Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -401,97 +364,186 @@
 			};
 			name = Debug;
 		};
-		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+		C7BE62186E17127FF3B5B27A193214BD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		5B35AADF6BE356600CE52CC6A52315DB /* Release */ = {
+		D077E5AF30E3A09910AC48CA760A1280 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 42FF7E08C367DF3E18E22FD7AA146377 /* Pods-York-Swift-Try-Catch_Tests.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DA182899BA2D185B185556729198B450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7074472995240C7190C7104C6E35D5CE /* York-Swift-Try-Catch.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/York-Swift-Try-Catch/York-Swift-Try-Catch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/York-Swift-Try-Catch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/York-Swift-Try-Catch/York-Swift-Try-Catch.modulemap";
+				PRODUCT_MODULE_NAME = York_Swift_Try_Catch;
+				PRODUCT_NAME = York_Swift_Try_Catch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4E227C20172FADE3AADEED3C16D8EA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 921240E03F4EC3A8D61536EB1261840E /* Pods-York-Swift-Try-Catch_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-York-Swift-Try-Catch_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-York-Swift-Try-Catch_Tests/Pods-York-Swift-Try-Catch_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_York_Swift_Try_Catch_Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		CF0888260C73D8A82EA3AEEFB5E776A6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBB436F7490AF37D22374C2FC96706DC /* York-Swift-Try-Catch.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/York-Swift-Try-Catch/York-Swift-Try-Catch-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/York-Swift-Try-Catch/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/York-Swift-Try-Catch/York-Swift-Try-Catch.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = York_Swift_Try_Catch;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -500,11 +552,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1E56A31D56C7FA8FEFB6BE9BDF0F47BE /* Build configuration list for PBXNativeTarget "Pods-York-Swift-Try-Catch_Tests" */ = {
+		22269359503C97DAB7E6D18783890B65 /* Build configuration list for PBXNativeTarget "Pods-York-Swift-Try-Catch_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1DDAB43ADB041BF5BF6BCFCED5553FFE /* Debug */,
-				5B35AADF6BE356600CE52CC6A52315DB /* Release */,
+				7E98D174769A81DC27EB5204184184FF /* Debug */,
+				E4E227C20172FADE3AADEED3C16D8EA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -512,17 +564,17 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
-				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+				C7BE62186E17127FF3B5B27A193214BD /* Debug */,
+				D077E5AF30E3A09910AC48CA760A1280 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		416907B4CDB884A820EEFA74BD3433A6 /* Build configuration list for PBXNativeTarget "York-Swift-Try-Catch" */ = {
+		A140286D3E655071921ADA17086C72AB /* Build configuration list for PBXNativeTarget "York-Swift-Try-Catch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				17FECD6C77E1944079888D4B66FEEAA6 /* Debug */,
-				CF0888260C73D8A82EA3AEEFB5E776A6 /* Release */,
+				DA182899BA2D185B185556729198B450 /* Debug */,
+				7A90603F27D4D26F8F1692E3AD773C89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

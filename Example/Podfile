@@ -1,9 +1,5 @@
-source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-
-target 'York-Swift-Try-Catch_Tests', :exclusive => true do
+target 'York-Swift-Try-Catch_Tests' do
   pod 'York-Swift-Try-Catch', :path => '../'
-
-  
 end

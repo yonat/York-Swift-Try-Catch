@@ -2,11 +2,11 @@
 
 @interface TryCatchFinally : NSObject
 
-+ (void)handleTryBlock:(void(^)())tryBlock
++ (void)handleTryBlock:(void(^)(void))tryBlock
         withCatchBlock:(void(^)(NSException * exception))catchBlock;
 
-+ (void)handleTryBlock:(void(^)())tryBlock
++ (void)handleTryBlock:(void(^)(void))tryBlock
         withCatchBlock:(void(^)(NSException * exception))catchBlock
-      withFinallyBlock:(void(^)())finallyBlock;
+      withFinallyBlock:(void(^)(void))finallyBlock;
 
 @end
